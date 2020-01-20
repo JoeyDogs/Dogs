@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DogdemoApplication {
 
 	public static void main(String[] args) {
+		System.out.println("here");
 		SpringApplication.run(DogdemoApplication.class, args);
 	}
 
